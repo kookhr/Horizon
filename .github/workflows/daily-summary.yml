@@ -40,6 +40,9 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           LWN_KEY: ${{ secrets.LWN_KEY }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          CLOUDWISE_API_KEY: ${{ secrets.CLOUDWISE_API_KEY }}
+          CLOUDWISE_BASE_URL: ${{ secrets.CLOUDWISE_BASE_URL }}
+          CLOUDWISE_MODEL: ${{ secrets.CLOUDWISE_MODEL }}
           HORIZON_WEBHOOK_URL: ${{ secrets.HORIZON_WEBHOOK_URL }}
         run: uv run horizon --hours 24
 
