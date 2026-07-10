@@ -5,115 +5,124 @@ date: 2026-07-10
 lang: en
 ---
 
-> From 38 items, 9 important content pieces were selected
+> From 37 items, 9 important content pieces were selected
 
 ---
 
-1. [OpenAI Announces GPT-5.6 with SOTA on ARC-AGI-3](#item-1) ⭐️ 10.0/10
-2. [EU Parliament Greenlights Chat Control 1.0 Mass Surveillance](#item-2) ⭐️ 9.0/10
-3. [China's Long March 10B Achieves World's First Net-Based Sea Recovery of Rocket First Stage](#item-3) ⭐️ 9.0/10
-4. [West Point Analysis: U.S. Army Logistics Unprepared for Modern War](#item-4) ⭐️ 8.0/10
-5. [Meta Launches Muse Spark 1.1 AI Model with API Access](#item-5) ⭐️ 8.0/10
-6. [SemiAnalysis: Meta's Superintelligence Progress Update](#item-6) ⭐️ 8.0/10
-7. [Meta's In-House AI Chip 'Iris' Enters Production in September](#item-7) ⭐️ 8.0/10
-8. [Musk Praises Anthropic, Commits to Maintaining SpaceX Server Services](#item-8) ⭐️ 8.0/10
-9. [Tencent Negotiating to Acquire AI Startup Manus from Meta](#item-9) ⭐️ 8.0/10
+1. [EU Parliament Greenlights Chat Control 1.0 Mass Surveillance](#item-1) ⭐️ 9.0/10
+2. [OpenAI Releases GPT-5.6 Series with Flagship Sol Model](#item-2) ⭐️ 9.0/10
+3. [OpenAI Begins GPT-5.6 Release Live Stream](#item-3) ⭐️ 9.0/10
+4. [China's Long March 10B Achieves World's First Net-Based Sea Recovery of Rocket First Stage](#item-4) ⭐️ 9.0/10
+5. [West Point Analysis: US Army Logistics Unprepared for Major War](#item-5) ⭐️ 8.0/10
+6. [Meta Launches Muse Spark 1.1, an Agentic AI Model with Developer API](#item-6) ⭐️ 8.0/10
+7. [Meta's Aggressive One-Year Push Toward Superintelligence](#item-7) ⭐️ 8.0/10
+8. [Meta to Mass-Produce In-House AI Chip 'Iris' in September](#item-8) ⭐️ 8.0/10
+9. [Tencent in Talks to Acquire AI Startup Manus from Meta for $2 Billion](#item-9) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [OpenAI Announces GPT-5.6 with SOTA on ARC-AGI-3](https://openai.com/index/gpt-5-6/) ⭐️ 10.0/10
+## [EU Parliament Greenlights Chat Control 1.0 Mass Surveillance](https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/) ⭐️ 9.0/10
 
-OpenAI has announced the GPT-5.6 series, headlined by the flagship "Sol" model which becomes the first verified frontier model to score on ARC-AGI-3, achieving 7.8% at max reasoning effort. The release also includes the Terra and Luna variants for balanced and high-concurrency low-cost use cases respectively, introducing features like improved intent understanding and original image detail preservation. This release is significant because it demonstrates measurable progress on agentic intelligence benchmarks like ARC-AGI-3, where frontier models previously scored below 1%, indicating advancements in interactive reasoning and skill acquisition. The improvements in coding efficiency, multi-agent collaboration, and cost reduction directly impact developers and enterprises relying on AI for complex knowledge work. GPT-5.6 Sol sets a new state-of-the-art on the Artificial Analysis Coding Agent Index at 80, surpassing competitors while using less than half the output tokens and costing about one-third less. Technically, the model preserves the original dimensions of images sent with original or auto detail settings instead of resizing them, and can better infer a user's underlying goal without explicit step-by-step instructions.
+The EU Parliament has approved 'Chat Control 1.0,' allowing US tech companies to scan private messages without warrants or prior suspicion across major platforms until 2028, despite a majority of voting MEPs opposing it.
 
-hackernews · logickkk1 · Jul 9, 17:04 · [Discussion](https://news.ycombinator.com/item?id=48849066)
+hackernews · rapnie · Jul 9, 11:03 · [Discussion](https://news.ycombinator.com/item?id=48843923)
 
-**Background**: ARC-AGI-3 is an interactive reasoning benchmark designed to evaluate agentic intelligence by testing a system's ability to explore, infer goals, and plan in novel, unfamiliar environments without explicit instructions. It extends static grid tasks into multi-turn reasoning problems requiring agents to operate under partial observability and dynamic feedback. Prior to GPT-5.6, frontier AI models typically scored below 1% on this benchmark, while humans were able to solve it, making any significant score a notable milestone in AGI research.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://arcprize.org/arc-agi/3">ARC-AGI-3</a></li>
-<li><a href="https://arxiv.org/abs/2603.24621">ARC-AGI-3: A New Challenge for Frontier Agentic Intelligence ARC-AGI-3: A New Challenge for Frontier Agentic Intelligence ARC-AGI-3 Quickstart - ARC-AGI-3 Docs ARC-AGI-3: The New Interactive Reasoning Benchmark - DataCamp GPT 5.6 Sol Tops ARC-AGI 3 With 7.8%, Becomes First Model To ... ARC-AGI-3: Interactive AGI Benchmark - emergentmind.com</a></li>
-<li><a href="https://apidog.com/blog/gpt-5-6-vs-claude-fable-5/">GPT - 5 . 6 Sol vs Claude Fable 5: an honest comparison</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community members highlighted the technical nuances of the release, noting the developer guide's tips on intent understanding and image detail preservation. Discussions also covered benchmark comparisons, with one user pointing out that competitor "Fable 5" was excluded from biology benchmarks due to refusal to answer, and debates emerged regarding coding capabilities, with users comparing GPT-5.6's performance in tools like Codex against Claude Code.
-
-**Tags**: `#openai`, `#gpt-5`, `#llm`, `#agi`, `#benchmarks`
+**Tags**: `#privacy`, `#surveillance`, `#EU policy`, `#civil liberties`, `#legislation`
 
 ---
 
 <a id="item-2"></a>
-## [EU Parliament Greenlights Chat Control 1.0 Mass Surveillance](https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/) ⭐️ 9.0/10
+## [OpenAI Releases GPT-5.6 Series with Flagship Sol Model](https://openai.com/index/gpt-5-6/) ⭐️ 9.0/10
 
-The European Parliament has approved the extension of Chat Control 1.0, allowing US tech companies to voluntarily scan private messages without a warrant or prior suspicion until 2028. Despite a majority of voting MEPs (314 against, 276 in favor) opposing the regulation, the motion to reject it failed to secure the required absolute majority of 361 votes out of all members. This decision fundamentally undermines digital privacy in the EU by enabling mass surveillance of private communications on platforms like Instagram, Discord, Gmail, and iCloud. It sets a dangerous precedent for government overreach and erodes the foundational right to private communication, potentially normalizing warrantless scanning of innocent citizens' data. The vote occurred on the day before the summer break with 113 MEPs absent, and under parliamentary rules, rejecting the regulation required an absolute majority of all members (361 votes), not just a majority of those voting. The regulation affects direct messages on platforms including Instagram, Discord, Snapchat, Skype, Xbox, Gmail, and iCloud, while public posts and cloud storage files could already be scanned without this law.
+OpenAI has officially released the GPT-5.6 model family, comprising three variants: the flagship Sol for maximum capability, Terra for balanced performance and cost, and Luna for high-throughput low-cost scenarios. The release introduces new features including max/ultra reasoning modes, multi-agent collaboration, and Programmatic Tool Calling, while also launching ChatGPT Work for complex multi-step office tasks and integrating Codex into the ChatGPT desktop app. This release represents a significant leap in frontier AI capabilities, with GPT-5.6 Sol achieving a new state-of-the-art on ARC-AGI-3 (7.8%) as the first verified frontier model to ever beat an ARC-AGI-3 game. The tiered model strategy and cost-efficiency improvements directly impact developers and enterprises choosing between OpenAI, Anthropic's Claude, and Google's Gemini for production workloads. GPT-5.6 Sol focuses on coding, science, and cybersecurity improvements, while Terra offers performance comparable to GPT-5.5 at 2x lower cost, and Luna provides the lowest-cost option in the family. The developer guide notes that GPT-5.6 can better infer user intent without explicit step-by-step instructions, and the model preserves original image dimensions — however, GPT-5.4 will be deprecated on July 23rd.
 
-hackernews · rapnie · Jul 9, 11:03 · [Discussion](https://news.ycombinator.com/item?id=48843923)
+hackernews · logickkk1 · Jul 9, 17:04 · [Discussion](https://news.ycombinator.com/item?id=48849066)
 
-**Background**: Chat Control is the nickname for EU regulations formally known as the Child Sexual Abuse Regulation (CSAR), originally proposed by European Commissioner for Home Affairs Ylva Johansson in May 2022. The legislation aims to combat child sexual abuse online by allowing companies to scan private digital communications, but critics argue it amounts to mass surveillance of unsuspected citizens. Chat Control 1.0 allows voluntary scanning by tech companies, while the more controversial Chat Control 2.0 would mandate scanning. The European Parliament had previously rejected this measure twice in March before it was pushed through using procedural maneuvers.
+**Background**: ARC-AGI-3 is a benchmark designed to test artificial general intelligence through abstract reasoning games that require novel pattern recognition, making it a notoriously difficult evaluation for AI models. OpenAI's tiered model approach mirrors a broader industry trend of offering models at different price-performance points to serve diverse use cases, from lightweight API calls to complex multi-step reasoning tasks. The competitive landscape includes Anthropic's Claude Code (a popular AI coding assistant) and other frontier models that developers actively compare for coding and agentic workflows.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Chat_Control">Chat Control - Wikipedia</a></li>
-<li><a href="https://fightchatcontrol.eu/chat-control-overview.html">Chat Control 1.0 vs 2.0 - Fight Chat Control</a></li>
-<li><a href="https://www.patrick-breyer.de/en/reality-check-eu-council-chat-control-vote-is-not-a-retreat-but-a-green-light-for-indiscriminate-mass-surveillance-and-the-end-of-right-to-communicate-anonymously/">Reality Check: EU Council Chat Control Vote is Not a Retreat, But...</a></li>
+<li><a href="https://openai.com/index/previewing-gpt-5-6-sol/">Previewing GPT‑5.6 Sol: a next-generation model - OpenAI</a></li>
+<li><a href="https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot/">OpenAI's GPT-5.6 Sol, Terra, and Luna are now available in GitHub Copilot - GitHub Changelog</a></li>
+<li><a href="https://www.datacamp.com/blog/gpt-5-6-sol-luna-terra">GPT-5.6 Sol, Terra, and Luna : OpenAI 's Next-Gen Model ... | DataCamp</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community members expressed outrage over the parliamentary procedure used to pass the regulation, noting that the vote was scheduled before the summer break to ensure low attendance, and that the default outcome was acceptance rather than rejection. Commenters highlighted that 314 MEPs voted against versus 276 in favor, yet the regulation still passed because rejecting it required an absolute majority of all members. Multiple users voiced deep concern about the erosion of fundamental privacy rights and questioned how the EU can still be defended as a democratic institution after such a maneuver.
+**Discussion**: Community discussion highlights GPT-5.6 Sol's new SOTA on ARC-AGI-3 at 7.8% as a notable milestone, while developers shared interesting semantic usage tips from the official guide about intent understanding and image dimension preservation. Users also debated GPT-5.6's coding capabilities versus Claude Code, with some long-time Claude Code users asking for consensus on whether to switch, and one commenter noted that OpenAI excluded Fable 5 from biology benchmarks because it refused to answer most questions.
 
-**Tags**: `#privacy`, `#eu-policy`, `#surveillance`, `#chat-control`, `#civil-liberties`
+**Tags**: `#AI`, `#LLM`, `#OpenAI`, `#GPT-5.6`, `#Machine Learning`
 
 ---
 
 <a id="item-3"></a>
-## [China's Long March 10B Achieves World's First Net-Based Sea Recovery of Rocket First Stage](https://weibo.com/7340734455/R814of1Ki) ⭐️ 9.0/10
+## [OpenAI Begins GPT-5.6 Release Live Stream](https://openai.com/zh-Hans-CN/live/) ⭐️ 9.0/10
 
-On July 10, 2026, China's Long March 10B launch vehicle lifted off from the Hainan Commercial Space Launch Site, and approximately 6 minutes after first-stage separation, the first stage performed a vertical return and was successfully recovered on a sea platform. This marks China's first successful controlled recovery of a launch vehicle's first stage and the world's first net-based recovery system for a rocket first stage. This milestone represents a significant breakthrough in reusable launch vehicle technology, demonstrating a novel recovery approach that differs from SpaceX's propulsive landing method. It marks China's transition from technical verification to practical capability validation in rocket reusability, which could substantially reduce launch costs and reshape the global commercial space launch landscape. The recovery employed a net-capture system in which the rocket's first stage descended vertically and was caught by a flexible net structure on a sea platform, which buffered the landing impact. The Long March 10B is a partially reusable launch vehicle powered by liquid oxygen-kerosene and methane engines, developed as a commercial variant of the Long March 10 series.
+OpenAI has begun a live stream presentation for the release of GPT-5.6, a new large language model that shipped to general availability on July 9, 2026. The model comes in three tiers — Luna, Terra, and Sol — and is available across ChatGPT, Codex, and the API. As a major new release from OpenAI, GPT-5.6 represents the latest advancement in frontier AI capabilities, with the top-tier Sol model showing stronger performance in coding, science, and cybersecurity. The multi-tier approach also signals an industry trend toward offering models that scale with different user needs and budgets. GPT-5.6 can write and run lightweight programs that coordinate tools, process intermediate results, monitor progress, and choose the next action as work unfolds. The three tiers range from Luna (cost-sensitive, high-volume workloads) to Terra (balanced intelligence and cost) to Sol (complex reasoning and coding).
 
-telegram · zaihuapd · Jul 10, 04:36
+telegram · zaihuapd · Jul 9, 17:02
 
-**Background**: Reusable rocket technology aims to recover and refurbish rocket stages to reduce launch costs, an approach pioneered commercially by SpaceX with its Falcon 9 propulsive landings. The Long March 10 series is a new generation of Chinese launch vehicles designed for both crewed lunar missions and commercial satellite launches, with the 10B variant focusing on commercial applications. Net-based recovery is an alternative recovery method that uses a flexible net structure to catch a descending rocket stage, as opposed to propulsive landing or parachute-and-ship recovery systems used by other programs.
+**Background**: GPT (Generative Pre-trained Transformer) is a family of large language models developed by OpenAI, with each successive version demonstrating improved reasoning, coding, and natural language understanding capabilities. GPT-5.6 was initially made available as a limited preview on June 26, 2026, before its full public release on July 9, 2026. It was released alongside GPT Live 1, formerly known as GPT-Bidi 1. The model continues OpenAI's trajectory of releasing increasingly capable frontier AI systems.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.news.cn/20260710/76bfd64fb0b1446ba00ac7514c49bb40/c.html">新华社快讯：长征十号乙运载火箭实现一子级可控回收-新华网</a></li>
-<li><a href="https://finance.sina.com.cn/jjxw/2026-07-10/doc-inihhvke3968035.shtml">中国开启可回收火箭时代，全球首创的“网系回收”有何玄机？_新浪财经_新浪网</a></li>
-<li><a href="https://news.cctv.cn/2026/07/10/ARTIclcbkfxwpuWHgyLM7YAb260710.shtml">长征十号乙运载火箭成功实现一子级可控回收_新闻频道_央视网 (cctv.co...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GPT-5.6">GPT-5.6</a></li>
+<li><a href="https://openai.com/index/gpt-5-6/">GPT - 5 . 6 : Frontier intelligence that scales with your ambition | OpenAI</a></li>
+<li><a href="https://www.vellum.ai/blog/gpt-5-6-benchmarks-explained">GPT - 5 . 6 Sol vs Terra vs Luna: Which Tier Should You Actually Use?</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#aerospace`, `#reusable-rockets`, `#china-space-program`, `#rocket-recovery`, `#long-march`
+**Tags**: `#OpenAI`, `#GPT`, `#AI`, `#LLM`, `#Product Launch`
 
 ---
 
 <a id="item-4"></a>
-## [West Point Analysis: U.S. Army Logistics Unprepared for Modern War](https://mwi.westpoint.edu/the-glass-backbone-why-the-armys-logistics-will-break-in-the-next-war/) ⭐️ 8.0/10
+## [China's Long March 10B Achieves World's First Net-Based Sea Recovery of Rocket First Stage](https://weibo.com/7340734455/R814of1Ki) ⭐️ 9.0/10
 
-The Modern War Institute at West Point published a strategic analysis arguing that the U.S. Army's logistics infrastructure is critically unprepared for sustained modern warfare against peer competitors. The report highlights systemic vulnerabilities in supply chains, industrial base capacity, and the outdated tooth-to-tail ratio concept. The analysis challenges fundamental assumptions about U.S. military readiness at a time when conflicts in Ukraine and tensions with China are reshaping global security. It suggests that despite technological superiority, the Army could face operational paralysis in a prolonged conflict due to logistical collapse. The article emphasizes that precision weapons are shifting the center of gravity from firepower to logistics, making industrial capacity and supply chain resilience decisive factors. It notes that the traditional tooth-to-tail ratio concept fails to account for modern warfare's demands on sustained logistics support.
+On July 10, China's Long March 10B rocket successfully completed the world's first net-based sea recovery of a first-stage rocket booster, marking China's first successful controlled recovery of a launch vehicle's first stage. After separation from the upper stage, the booster performed a controlled vertical descent and was captured by a net suspended from a sea-based recovery platform. This achievement represents a novel approach to reusable rocket technology, diverging from the established propulsive landing-leg method used by SpaceX's Falcon 9. It demonstrates China's growing capability in reusable launch systems and introduces a potentially simpler recovery mechanism that could reduce costs and complexity for rocket reuse. The Long March 10B's first stage is designed for recovery via a 'wire recovery apparatus' located on a recovery vessel, launched from the Wenchang Commercial Space Launch Site on Hainan island. The booster separated from the upper stage approximately six minutes after liftoff before performing its controlled vertical descent to the sea-based platform.
 
-hackernews · baud147258 · Jul 9, 13:24 · [Discussion](https://news.ycombinator.com/item?id=48845442)
+telegram · zaihuapd · Jul 10, 04:36
 
-**Background**: The "tooth-to-tail ratio" is a military concept describing the balance between combat forces (tooth) and support personnel (tail). Modern warfare, as demonstrated in Ukraine, has shown that sustained logistics operations are increasingly vulnerable to precision strikes and require robust industrial backing. The U.S. military has historically relied on technological superiority to offset numerical disadvantages, but peer competitors like China are narrowing this gap.
+**Background**: The Long March rocket family is operated by the China Aerospace Science and Technology Corporation and has performed over 600 launches. The Long March 10A and 10B are medium-lift variants whose first stages are designed for recovery and reuse via vertical landing on a marine platform. Traditionally, first stages of orbital carrier rockets have been discarded in the ocean; achieving routine recovery and reuse could substantially reduce the cost of access to space. SpaceX's Falcon 9 pioneered propulsive landing with landing legs, while Rocket Lab has explored splashdown and vessel retrieval for its Electron rocket.
 
-**Discussion**: The discussion featured diverse viewpoints, with one commenter praising the article's insight while another noted the cyclical nature of logistics debates in the military. A notable counterargument claimed the analysis underestimates American industrial capacity, pointing out that the U.S. is second globally in military drone production and maintains unmatched power projection capabilities. Another commenter drew parallels to Ukraine, warning that conflicts can extend far beyond initial expectations.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Long_March_10B">Long March 10B - Wikipedia</a></li>
+<li><a href="https://moderndiplomacy.eu/2026/07/10/china-successfully-tests-sea-based-rocket-booster-recovery-system/">China successfully tests sea - based rocket booster recovery system</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Falcon_9_first-stage_landing_tests">Falcon 9 first-stage landing tests - Wikipedia</a></li>
 
-**Tags**: `#military`, `#logistics`, `#strategy`, `#defense-policy`, `#supply-chain`
+</ul>
+</details>
+
+**Tags**: `#aerospace`, `#reusable-rockets`, `#china-space-program`, `#rocket-recovery`, `#systems-engineering`
 
 ---
 
 <a id="item-5"></a>
-## [Meta Launches Muse Spark 1.1 AI Model with API Access](https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/) ⭐️ 8.0/10
+## [West Point Analysis: US Army Logistics Unprepared for Major War](https://mwi.westpoint.edu/the-glass-backbone-why-the-armys-logistics-will-break-in-the-next-war/) ⭐️ 8.0/10
 
-Meta has introduced Muse Spark 1.1, a new multimodal AI model designed for agentic coding, now available to external developers through an API with capabilities including tool calling and function calling. The launch marks Meta's first paid AI model offering, with pricing set at $1.25 per million input tokens and $4.50 per million output tokens, alongside a cached input rate of $0.15 per million tokens. Muse Spark 1.1 represents Meta's direct entry into the competitive frontier AI model market currently dominated by OpenAI and Anthropic, potentially disrupting pricing and market dynamics. The release signals Meta's strategic shift toward monetizing its AI models while also intensifying competition in the agentic AI coding space. The model features agentic affordances including tool calling, function calling, and user-specified developer prompts, and is multimodal in nature. However, community members have noted that the Terminal-Bench 2.1 evaluation results may be disqualified because the evaluation harness overrode CPU and RAM resource limits specified for individual tasks.
+The Modern War Institute at West Point published a detailed analysis arguing that the US Army's logistics infrastructure is critically unprepared for sustained conflict in a major war. The article highlights the disconnect between the military's stated emphasis on logistics and its actual budget and modernization priorities. The analysis raises urgent questions about whether the US military could sustain prolonged operations against a near-peer adversary like China or Russia, where supply chains would face unprecedented disruption. It challenges assumptions about American industrial capacity and the tooth-to-tail ratio that have shaped decades of defense planning. The article critiques the outdated concept of the tooth-to-tail ratio, arguing that the logistical tail is treated as expendable rather than essential to combat power. It notes that while the phrase "amateurs talk tactics and professionals talk logistics" is frequently cited in military institutions, this principle is rarely reflected in actual Army budget requests or modernization investments.
+
+hackernews · baud147258 · Jul 9, 13:24 · [Discussion](https://news.ycombinator.com/item?id=48845442)
+
+**Background**: The tooth-to-tail ratio is a military concept describing the balance between combat forces (the "teeth") and support and logistics personnel (the "tail"). In counterinsurgency operations like Iraq and Afghanistan, the US military enjoyed relatively secure supply lines and overwhelming air superiority, reducing pressure on logistics systems. However, a potential conflict with a near-peer adversary would involve contested logistics, where supply chains, ports, and transportation networks could be targeted by long-range precision strikes, cyber attacks, and other asymmetric capabilities, as demonstrated by ongoing events in Ukraine.
+
+**Discussion**: Community discussion was robust, with commenters largely agreeing on the importance of logistics but offering diverse perspectives. Several highlighted the cyclical nature of military priorities, noting the pendulum swing between expanding logistics and cutting support roles. Others pushed back on the article's pessimism, arguing it underestimates American industrial capacity, particularly in drone production and global force projection, while some pointed to the Ukraine conflict as evidence that modern warfare evolves unpredictably over years rather than months.
+
+**Tags**: `#military-logistics`, `#defense-policy`, `#strategy`, `#industrial-capacity`, `#systems-thinking`
+
+---
+
+<a id="item-6"></a>
+## [Meta Launches Muse Spark 1.1, an Agentic AI Model with Developer API](https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/) ⭐️ 8.0/10
+
+Meta has introduced Muse Spark 1.1, a natively multimodal reasoning model with agentic capabilities including tool-use, visual chain of thought, and multi-agent orchestration, accessible through the new Meta Model API. The release includes an evaluation report, developer resources, and a pricing model of $1.25/$4.50 per 1M input/output tokens with $0.15 for cached input. This marks Meta's first serious developer-facing push into the competitive agentic AI coding market, directly challenging OpenAI and Anthropic with a model optimized for long-context, multimodal workflows and tool coordination. The aggressive pricing and open API access signal Meta's strategy to commoditize frontier AI capabilities and disrupt the revenue models of competitors. The model is evaluated using Terminal-Bench 2.1 tasks with a bash-tool-only agent harness, though community members have raised concerns about benchmark validity due to resource cap overrides (6 CPU cores, 8GB RAM limits). Simon Willison demonstrated the model's capabilities by generating SVG output through a terminal plugin, and pricing details are available at dev.meta.ai.
 
 hackernews · ot · Jul 9, 14:10 · [Discussion](https://news.ycombinator.com/item?id=48846184)
 
-**Background**: Muse Spark is described by Meta as the first product of a ground-up overhaul of its AI efforts and the first step on a scaling ladder toward personal AI. An agentic AI model goes beyond text generation by incorporating tool use, memory, planning, and feedback within a larger control flow, enabling semi-autonomous action. Meta has made strategic investments across the entire stack, from research and model training to infrastructure including the Hyperion data center, to support further scaling. The model is designed to compete directly with frontier models from OpenAI and Anthropic in the agentic coding space.
+**Background**: Muse Spark is the first model in the Muse family developed by Meta Superintelligence Labs (MSL), designed as a natively multimodal reasoning model. Agentic AI refers to systems that can accomplish goals with limited supervision by integrating with software systems, planning, and executing tasks independently. Meta's entry into this space follows the company's pattern of releasing frontier models to disrupt competitors' pricing, as previously seen with the Llama family of open-weight models. The launch also represents Meta's shift toward charging for AI model access, moving beyond its earlier open-weight distribution strategy.
 
 <details><summary>References</summary>
 <ul>
@@ -124,96 +133,65 @@ hackernews · ot · Jul 9, 14:10 · [Discussion](https://news.ycombinator.com/it
 </ul>
 </details>
 
-**Discussion**: Community sentiment is largely positive, with users noting that the launch challenges the prevailing narrative that OpenAI and Anthropic are irreversibly ahead, as both xAI and Meta have now delivered competitive models at lower prices. Developer Simon Willison shared practical usage examples including an LLM plugin for terminal-based interaction with the model. However, technical concerns were raised about benchmark validity, specifically that Terminal-Bench 2.1 evaluation results may be disqualified due to resource limit overrides. Strategically, some commenters suggested Meta should focus on its "spoiler" role — deflating competitors' revenue by commoditizing coding models through open-weights releases rather than competing head-to-head on model revenue.
+**Discussion**: Community sentiment is mixed but largely positive about the model's competitiveness and pricing. User Tiberium highlighted the aggressive pricing ($1.25/$4.50 per 1M tokens) as remarkable, while jacobgold suggested Meta should continue its "spoiler" strategy of commoditizing coding models rather than competing head-to-head on revenue. However, GodelNumbering raised serious concerns about benchmark validity, noting that Terminal-Bench 2.1 evaluation results may be disqualified due to resource cap overrides. User Sol- observed a shift in prevailing opinion, noting that xAI and Meta have delivered competitive models that challenge the narrative of OpenAI and Anthropic's irreversible lead.
 
-**Tags**: `#AI`, `#Meta`, `#LLM`, `#API`, `#benchmark`
-
----
-
-<a id="item-6"></a>
-## [SemiAnalysis: Meta's Superintelligence Progress Update](https://newsletter.semianalysis.com/p/the-future-of-meta-superintelligence) ⭐️ 8.0/10
-
-SemiAnalysis published a detailed one-year progress report on Meta's superintelligence efforts, highlighting the most aggressive compute ramp the industry has ever seen, a new top-tier reinforcement learning (RL) environment startup, and 2000km+ scale-across training capabilities. The report also offers strategic advice for Google DeepMind in response to Meta's moves. Meta's unprecedented compute scaling and infrastructure build-out signal a serious bid for AI dominance, directly threatening competitors like Google DeepMind and reshaping the AI/ML landscape. The emergence of a new RL environment startup also indicates maturing tooling that could accelerate model training across the industry. The analysis covers Meta's 2000km+ scale-across training infrastructure, which enables distributed AI training over vast geographic distances, and notes the spontaneous emergence of a top-tier RL environment startup. Specific technical metrics, startup identity, and the exact nature of the advice for Google DeepMind are detailed in the full SemiAnalysis report.
-
-rss · Semianalysis · Jul 9, 19:16
-
-**Background**: Meta Superintelligence Labs (MSL) is Meta's dedicated AI division that brings together its Llama model development and AI research teams to pursue artificial superintelligence — AI that surpasses human intelligence in every way. SemiAnalysis is a highly respected AI and semiconductor research firm known for its datacenter industry models and in-depth analysis of AI infrastructure trends. Reinforcement learning environments are specialized platforms that provide simulated settings for AI agents to learn through trial and error, which is critical for training advanced models.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Meta_Superintelligence_Labs">Meta Superintelligence Labs - Wikipedia</a></li>
-<li><a href="https://semianalysis.com/">SemiAnalysis – Bridging the gap between the world's most ...</a></li>
-<li><a href="https://builtin.com/artificial-intelligence/meta-superintelligence-labs">Meta Superintelligence Labs: What We Know So Far | Built In</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#Meta`, `#Superintelligence`, `#AI Infrastructure`, `#Reinforcement Learning`, `#SemiAnalysis`
+**Tags**: `#AI`, `#Meta`, `#LLM`, `#Agentic AI`, `#Model Release`
 
 ---
 
 <a id="item-7"></a>
-## [Meta's In-House AI Chip 'Iris' Enters Production in September](https://www.reuters.com/world/asia-pacific/meta-put-ai-chip-into-production-september-it-looks-double-computing-capacity-2026-07-09/) ⭐️ 8.0/10
+## [Meta's Aggressive One-Year Push Toward Superintelligence](https://newsletter.semianalysis.com/p/the-future-of-meta-superintelligence) ⭐️ 8.0/10
 
-Meta plans to begin mass production of its in-house AI chip, codenamed 'Iris' (MTIA 400), in September 2026, with the chip having already completed a six-week lab testing phase with no major issues found. The chip is the fourth generation in Meta's MTIA series, designed by Broadcom and manufactured by TSMC, and is part of a broader plan to deploy 7 GW of computing infrastructure this year and double it to 14 GW by 2027. This move signals Meta's strategic push to reduce its heavy reliance on Nvidia and AMD for AI chips, potentially lowering costs and gaining more control over its AI hardware roadmap. With up to $145 billion earmarked for AI infrastructure, Meta's custom silicon strategy could reshape the competitive landscape of AI data center hardware and influence how other hyperscalers approach their chip supply chains. The Iris chip (MTIA 400) is the fourth generation in Meta's Training and Inference Accelerator series, with its predecessor MTIA 300 already in production. Meta has secured long-term supply agreements with Samsung, SanDisk, and Sumitomo Electric for memory, flash storage, and fiber optics, and the company plans to deploy 7 GW of compute infrastructure in 2026, scaling to 14 GW by 2027.
+SemiAnalysis published a detailed progress update on Meta's superintelligence efforts, revealing what it calls the most aggressive compute ramp ever seen, a 2000km+ scale-across infrastructure, and the emergence of a top-tier reinforcement learning (RL) environment startup. The article also offers strategic advice for Google DeepMind in response to Meta's moves. Meta's unprecedented compute scaling and infrastructure buildout signal a serious, well-resourced bid to lead the race toward superintelligence, directly threatening competitors like Google DeepMind and OpenAI. The emergence of a dedicated RL environment startup also highlights a new layer of the AI stack becoming commercially important, as reinforcement learning environments become critical for training next-generation models. The report highlights a 2000km+ scale-across, referring to Meta's ambitious plan to network geographically distributed data centers to function as a single training cluster. The article also notes that Meta had explored acquiring companies like Safe Superintelligence Inc. (SSI), Thinking Machines Lab, and Perplexity AI, but these deals fell through, prompting Meta to build its superintelligence capabilities internally.
 
-telegram · zaihuapd · Jul 9, 12:37
+rss · Semianalysis · Jul 9, 19:16
 
-**Background**: Meta's MTIA (Meta Training and Inference Accelerator) program is a family of custom-built silicon chips first publicly revealed in 2023, designed to efficiently power Meta's AI workloads including ranking, recommendations, and generative AI. The program aims to provide the most efficient architecture for Meta's unique workloads, reducing dependency on third-party GPU suppliers like Nvidia. Meta is now developing and deploying four new generations of chips within a two-year timeframe, a significantly faster pace than typical semiconductor industry cycles.
+**Background**: Meta Superintelligence Labs is Meta's dedicated effort to achieve what CEO Mark Zuckerberg calls "personal superintelligence"—AI designed for individual fulfillment rather than purely enterprise applications. Reinforcement learning (RL) environments are sandboxed digital spaces where AI models learn through trial and error by receiving rewards or penalties for actions, increasingly seen as essential for advancing model reasoning. The concept of "scale-across" refers to the technical challenge of distributing AI training across multiple data centers that are geographically far apart, requiring sophisticated networking to maintain synchronization.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://cryptobriefing.com/meta-iris-ai-chip-september-manufacturing/">Meta plans to manufacture Iris AI chip in September, doubling ...</a></li>
-<li><a href="https://about.fb.com/news/2026/03/expanding-metas-custom-silicon-to-power-our-ai-workloads/">Expanding Meta’s Custom Silicon to Power Our AI Workloads</a></li>
-<li><a href="https://ai.meta.com/blog/next-generation-meta-training-inference-accelerator-AI-MTIA/">Our next-generation Meta Training and Inference Accelerator</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#AI Chips`, `#Meta`, `#Hardware Infrastructure`, `#AI/ML`, `#Data Centers`
+**Tags**: `#Meta`, `#Artificial Intelligence`, `#Superintelligence`, `#Compute Infrastructure`, `#Reinforcement Learning`
 
 ---
 
 <a id="item-8"></a>
-## [Musk Praises Anthropic, Commits to Maintaining SpaceX Server Services](https://x.com/i/status/2075278580955685036) ⭐️ 8.0/10
+## [Meta to Mass-Produce In-House AI Chip 'Iris' in September](https://www.reuters.com/world/asia-pacific/meta-put-ai-chip-into-production-september-it-looks-double-computing-capacity-2026-07-09/) ⭐️ 8.0/10
 
-Elon Musk publicly reversed his previous stance on Anthropic, calling them a current leader in AI and pledging not to cut off their SpaceX server services despite being competitors. This follows a massive $40 billion infrastructure deal in which Anthropic purchased 300 megawatts of compute capacity from xAI's Colossus 1 data center in Memphis, Tennessee, agreeing to pay $1.25 billion monthly through May 2029. This signals a rare moment of cooperation between two fierce AI competitors, with Musk's xAI becoming a critical infrastructure provider to Anthropic. The $40 billion deal underscores the enormous capital requirements for frontier AI compute and highlights how infrastructure capacity is becoming a strategic bottleneck and competitive moat in the AI industry. Musk specifically praised Anthropic's Mythos and Fable model families, claiming no other company has produced comparable models. Claude Fable 5 is the highest-scoring model on FrontierBench, Cognition's frontier coding evaluation, while the Mythos class represents Anthropic's most advanced AI lineup, with the public-safe Fable 5 version released on June 9, 2026 after months of restricted access.
+Meta plans to begin mass production of its in-house AI chip, codenamed 'Iris' (MTIA 400), in September 2026, with Broadcom assisting in design and TSMC handling manufacturing. The chip completed lab testing in just six weeks with no major issues found, and Meta also plans to deploy 7 gigawatts of compute infrastructure this year, doubling to 14 gigawatts by 2027. This marks a significant strategic shift for Meta to reduce its heavy reliance on Nvidia and AMD for AI accelerators, giving the company greater control over performance, cost, and supply chain for its massive AI infrastructure buildout. The move reflects a broader industry trend where hyperscalers like Meta and OpenAI are designing custom silicon to gain competitive advantages in the AI compute race. Iris is the codename for Meta's MTIA 400, the fourth generation in its Meta Training and Inference Accelerator series, with the predecessor MTIA 300 already in production. Meta expects to invest up to $145 billion in AI infrastructure this year and has signed long-term supply agreements with Samsung, SanDisk, and Sumitomo Electric for memory, flash storage, and fiber optics.
 
-telegram · zaihuapd · Jul 10, 02:02
+telegram · zaihuapd · Jul 9, 12:37
 
-**Background**: Anthropic's Claude Mythos 5 is a large language model that was initially restricted to a small set of partner institutions due to safety concerns over its ability to find software vulnerabilities. The public-safe version, dubbed Fable 5, was released on June 9, 2026, and is described as the same underlying model as Mythos 5 with robust safeguards for cybersecurity and biology domains. SpaceX has been expanding into AI infrastructure, having acquired xAI in February 2026 with plans to build orbital AI data centers using Starship and Starlink to overcome Earth's energy and latency limitations.
+**Background**: Meta's MTIA (Meta Training and Inference Accelerator) program is a multi-generation custom silicon initiative aimed at building chips optimized for Meta's specific AI workloads, including training and inference for its recommendation systems and generative AI models. The company partnered with Broadcom, a leading semiconductor design and networking company, which provides its XPU custom accelerator platform and expertise in chip design, packaging, and networking. This effort is part of a broader hyperscaler trend where companies like Google (TPU), Amazon (Trainium), and now OpenAI are developing custom AI chips to reduce dependency on Nvidia's expensive GPUs and gain more control over their AI compute infrastructure.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.anthropic.com/news/claude-fable-5-mythos-5">Claude Fable 5 and Claude Mythos 5 \ Anthropic</a></li>
-<li><a href="https://www.theguardian.com/technology/2026/jun/09/anthropic-claude-mythos-ai-model">Anthropic releases ‘safe’ version of Claude Mythos AI model to public | AI (artificial intelligence) | The Guardian</a></li>
-<li><a href="https://thesiliconreview.com/2026/02/spacex-acquires-xai-space-data-centers">SpaceX Acquires Elon Musk's xAI to Build AI Data Centers in Space</a></li>
+<li><a href="https://www.cnbc.com/2026/07/09/meta-to-put-ai-chip-into-production-in-september-report.html">Meta to put AI chip into production in September: Report - CNBC</a></li>
+<li><a href="https://investors.broadcom.com/news-releases/news-release-details/broadcom-announces-extended-partnership-meta-deploy-technology">Broadcom Announces Extended Partnership with Meta to Deploy Technology to Support Multi-Gigawatts of Meta’s Custom Silicon, MTIA | Broadcom Inc.</a></li>
+<li><a href="https://cryptobriefing.com/meta-iris-ai-chip-september-manufacturing/">Meta plans to manufacture Iris AI chip in September, doubling compute ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI Industry`, `#Anthropic`, `#Elon Musk`, `#SpaceX`, `#Infrastructure`
+**Tags**: `#AI Chips`, `#Meta`, `#Hardware Infrastructure`, `#MTIA`, `#Broadcom`
 
 ---
 
 <a id="item-9"></a>
-## [Tencent Negotiating to Acquire AI Startup Manus from Meta](https://www.reuters.com/technology/tencent-talks-become-ai-start-up-manus-largest-shareholder-ft-reports-2026-07-10/) ⭐️ 8.0/10
+## [Tencent in Talks to Acquire AI Startup Manus from Meta for $2 Billion](https://www.reuters.com/technology/tencent-talks-become-ai-start-up-manus-largest-shareholder-ft-reports-2026-07-10/) ⭐️ 8.0/10
 
-Tencent is in talks to acquire AI agent startup Manus from Meta for at least $2 billion, aiming to become its largest shareholder. Tencent is partnering with Manus's original investors ZhenFund and HSG (formerly Sequoia China) to buy back the company after Beijing blocked Meta's acquisition. This deal highlights the growing geopolitical tensions surrounding AI technology ownership, as Chinese regulators blocked Meta's acquisition of a company originally founded in China. The outcome could reshape the competitive landscape for AI agent technology in both Chinese and global markets, with Tencent gaining a strategic asset in the AI race. Manus is an autonomous AI agent developed by Butterfly Effect, a company founded in China and based in Singapore, capable of planning and executing complex tasks rather than functioning as a chatbot. The reported deal value is at least $2 billion, though some earlier reports suggested Meta's acquisition may have been valued at up to $3 billion.
+Tencent is reportedly in negotiations to acquire AI startup Manus for at least $2 billion, partnering with existing investors ZhenFund and HSG to buy it back from Meta. This follows Beijing's order requiring Meta to divest its earlier acquisition of the Chinese-founded AI company. This deal highlights the intensifying geopolitical tensions surrounding AI company ownership, particularly when Chinese-founded startups are acquired by U.S. tech giants. It also underscores the fierce competition among Chinese tech leaders like Tencent to secure top AI talent and technology in a rapidly evolving landscape. Manus is an autonomous AI agent developed by Butterfly Effect, a company founded in China and based in Singapore. China's National Development and Reform Commission directed Meta to unwind the deal on national-security grounds, and Meta has already begun halting data sharing and cutting Manus from internal systems.
 
 telegram · zaihuapd · Jul 10, 06:45
 
-**Background**: Manus is an autonomous AI agent developed by Butterfly Effect, positioned as a general AI agent that can plan and execute tasks independently. Meta had previously acquired Manus in a deal reported at $2-3 billion to boost its AI offerings, but Beijing regulators intervened and required Meta to divest the acquisition. ZhenFund is a Beijing-based early-stage venture capital firm founded in 2011, while HSG (formerly Sequoia Capital China) is a major global investment firm that was spun off from Sequoia Capital and manages over $61 billion in assets.
+**Background**: Meta originally acquired Manus in a $2 billion deal to boost its AI offerings, but Beijing's National Development and Reform Commission ordered the deal reversed on national-security grounds. Manus is an autonomous AI agent capable of performing tasks independently, developed by Butterfly Effect, a company with Chinese origins now based in Singapore. The forced divestment reflects growing regulatory scrutiny in China over cross-border AI acquisitions involving sensitive technology.
 
 <details><summary>References</summary>
 <ul>
+<li><a href="https://www.cnbc.com/2026/06/12/meta-reportedly-begins-dismantling-2-billion-manus-deal-on-beijings-orders.html">Meta reportedly begins dismantling $2 billion Manus deal on ...</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Manus_(AI_agent)">Manus ( AI agent) - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/ZhenFund">ZhenFund - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/HongShan">HongShan - Wikipedia</a></li>
+<li><a href="https://www.techtimes.com/articles/318377/20260615/beijing-forces-meta-unwind-its-2-billion-manus-deal-offshore-move-was-no-escape.htm">Beijing Forces Meta to Unwind Its $2 Billion Manus Deal ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#M&A`, `#Tencent`, `#Meta`, `#Geopolitics`
+**Tags**: `#AI`, `#Tencent`, `#Manus`, `#Meta`, `#M&A`
 
 ---
