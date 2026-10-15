@@ -5,99 +5,140 @@ date: 2026-10-15
 lang: zh
 ---
 
-> 从 44 条内容中筛选出 4 条重要资讯。
+> 从 39 条内容中筛选出 7 条重要资讯。
 
 ---
 
-1. [Anthropic 用自研版本控制系统 Scion 替换 Git](#item-1) ⭐️ 9.0/10
-2. [Google 静默关联所有已登录 Android 账户的手机号](#item-2) ⭐️ 8.0/10
-3. [通过机制可解释性追踪并消除 LLM 的"套话"风格](#item-3) ⭐️ 8.0/10
-4. [首例 Stargardt 病患者植入 PRIMA 视觉芯片后可辨识单词](#item-4) ⭐️ 8.0/10
+1. [Muse Spark 开源发布](#item-1) ⭐️ 9.0/10
+2. [定向广告被改造为零点击间谍软件投递管道](#item-2) ⭐️ 9.0/10
+3. [Goodfire 认为神经网络比此前设想的更具可解释性](#item-3) ⭐️ 8.0/10
+4. [Libreboot 26.10 'Ominous Olive' 发布，支持 UEFI 和 Chromebook](#item-4) ⭐️ 8.0/10
+5. [Anthropic IPO 前公布 Q3 营收达 168 亿美元](#item-5) ⭐️ 8.0/10
+6. [ASML 正在开发混合键合设备](#item-6) ⭐️ 8.0/10
+7. [MIT 与 PNAS 研究表明神经网络可从局部可塑性规则自组装学习机制](#item-7) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Anthropic 用自研版本控制系统 Scion 替换 Git](https://www.anthropic.com/engineering/redesigning-source-control) ⭐️ 9.0/10
+## [Muse Spark 开源发布](https://research.meta.ai/blog/muse-spark-open) ⭐️ 9.0/10
 
-Anthropic 已将其内部 monorepo 从 Git 全面迁移至自研版本控制系统 Scion，该系统由七人团队在五个月内完成构建。新系统实现了约百倍的 CI 检出速度提升，CPU 与内存占用仅为原 git 镜像架构的 1/200，并节省了 25% 的 CI 算力成本。 随着 Anthropic 日均代码合并量从 2026 年 5 月的约 2,500 次增长至 9 月的超 30,000 次，Git 已成为最大的开发瓶颈。Scion 采用客户端始终在线、服务端承担计算、数据分布式存储的架构，证明了在极端规模下，专用版本控制系统能够显著超越 Git 等通用工具的性能。 Scion 的设计将繁重的计算任务从开发者个人机器转移至中心化服务端，数据以分布式方式存储而非全量镜像复制。整个迁移仅由七名工程师完成，系统目前每日处理超过 30,000 次合并，同时将 CI 算力使用量降低了 25%。
+Meta 发布了 Muse Spark Open，这是一个拥有 8160 亿参数的开源权重模型，专为在本地硬件上运行而优化，引发了社区对其性能、许可协议和市场定位的广泛讨论。
 
-telegram · zaihuapd · 10月14日 02:30
+hackernews · bigwheels · 10月15日 17:47 · [社区讨论](https://news.ycombinator.com/item?id=50107379)
 
-**背景**: Git 是一种分布式版本控制系统，每个开发者都拥有仓库的完整副本，包括全部历史记录。在极大规模下——尤其是包含海量代码和历史的 monorepo 中——Git 的克隆、拉取和 CI 检出等操作会变得极其消耗资源。Datadog 等公司此前曾构建自定义 Git 镜像层（如 gitretriever）来大规模为 CI 系统提供代码服务，但 Anthropic 选择更进一步，用专用系统完全替换 Git。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.anthropic.com/engineering/redesigning-source-control">Redesigning source control at Anthropic</a></li>
-<li><a href="https://tech-insider.org/anthropic-scion-source-control-30000-merges-2026/">Anthropic Scion: 30,000 Code Merges a Day Explained</a></li>
-<li><a href="https://www.datadoghq.com/blog/engineering/gitretriever/">20× the CI traffic without getting slower: How we rebuilt Git ...</a></li>
-
-</ul>
-</details>
-
-**标签**: `#version-control`, `#anthropic`, `#devops`, `#ci-cd`, `#engineering`
+**标签**: `#Meta`, `#Open-Weight Models`, `#LLM`, `#AI`, `#Local Inference`
 
 ---
 
 <a id="item-2"></a>
-## [Google 静默关联所有已登录 Android 账户的手机号](https://www.androidauthority.com/google-auto-phone-number-verification-android-3723117/) ⭐️ 8.0/10
+## [定向广告被改造为零点击间谍软件投递管道](https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/) ⭐️ 9.0/10
 
-Google 已将 Android 的手机号验证改为默认开启（opt-out），自动将设备手机号验证并关联到该手机上所有已登录的 Google 账户，包括副账户和工作账户。Google 在 2025 年 8 月至 10 月期间更新了其文档以反映这一行为变化。 这一变化显著侵蚀了用户隐私，通过单一手机号将用户维护的多个独立 Google 账户静默关联，从而对用户进行去匿名化。它还增加了集中式账户锁定的风险，即一次违规可能导致所有关联账户被连锁封锁，令用户无处申诉。 手机号关联在登录过程中无需明确提示或用户同意即可发生，用户反映很难找到设置来禁用此功能。该行为影响设备上所有已登录的账户类型，包括副账户、工作账户和备用账户，实际上将手机号作为 Google 生态系统中的通用标识符。
+Citizen Lab 发布研究报告，揭露以色列公司 Discover Tech 将定向在线广告基础设施改造为零点击雇佣兵间谍软件的投递管道，这是首次有技术证据记录此类分发方式。 这一发现表明，庞大且不透明的广告技术生态系统可被武器化，用于在用户无任何交互的情况下向目标人物静默投递复杂的监控工具，大幅扩展了雇佣兵间谍软件运营者的攻击面。 社区中一位广告技术工程师指出，该报告在
 
-hackernews · Brajeshwar · 10月14日 16:28 · [社区讨论](https://news.ycombinator.com/item?id=50090349)
+hackernews · jcomp · 10月15日 10:43 · [社区讨论](https://news.ycombinator.com/item?id=50101813)
 
-**背景**: 此前，Android 上的手机号验证需要用户明确操作才能将号码关联到 Google 账户。去匿名化是将匿名或独立标识的数据与公开信息进行匹配以识别个人身份的做法，手机号已日益成为互联网上事实上的身份凭证。Google 作为最大的广告技术公司和主导性的移动操作系统提供商，其独特地位使得跨账户关联手机号能够构建强大的跨账户身份图谱。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://ccstartup.com/blog/2026/10/14/psa-google-is-silently-linking-your-phone-number-across-all-signed-in-accounts/">PSA: Google is silently linking your phone number across all ...</a></li>
-<li><a href="https://support.google.com/android/thread/348794711/automatically-linking-of-phone-number?hl=en">Automatically linking of phone number - Android Community</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 社区情绪压倒性地负面，用户批评 Google 是最激进的反隐私大型科技公司，并对手机号已成为互联网上事实上的社会安全号码感到沮丧。多位评论者担忧集中式账户锁定风险，即一次失误可能连锁波及所有关联账户，部分用户呼吁进行监管干预以阻止单一实体同时控制操作系统、浏览器、搜索和电子邮件。注重隐私的用户（包括 GrapheneOS 用户）报告称因避免使用 Google Play 服务而遭遇更多摩擦。
-
-**标签**: `#privacy`, `#google`, `#android`, `#security`, `#deanonymization`
+**标签**: `#cybersecurity`, `#spyware`, `#adtech`, `#privacy`, `#zero-click`
 
 ---
 
 <a id="item-3"></a>
-## [通过机制可解释性追踪并消除 LLM 的"套话"风格](https://www.reddit.com/r/MachineLearning/comments/1x64lbk/tracing_where_llm_slop_style_comes_from_in_the/) ⭐️ 8.0/10
+## [Goodfire 认为神经网络比此前设想的更具可解释性](https://already-clean.goodfire.com/) ⭐️ 8.0/10
 
-作者在 Qwen3-4B-Instruct 和 OLMo 2 1B 上使用均值差和 logit-lens 技术，将"AI 套话"写作风格追溯到特定的表示方向，发现基座模型已包含这些方向，但 SFT 引入了修辞结构，DPO 则放大了流行词和格式化。从第 12 至 23 层的固定向量减法蒸馏出的 rank-16 LoRA，将套话得分降低了 83%，且 KL 散度极小、QA 性能未下降。 这项研究首次详细地从机制层面揭示了每个对齐训练阶段如何导致可识别的"AI 套话"风格，为对齐研究者在表示层面而非仅依赖 token 级禁令来缓解该问题提供了可操作的见解。跨语言发现和在 OLMo 2 上的多阶段训练分析表明，偏好数据本身可能是套话的关键来源，因为在 57%的样本对中，被选中的回复套话更多。 方向消融反而使套话增加了最多 89%，因为干净文本在套话轴上的投影为负值，因此作者使用了固定向量减法，并将 KL 散度限制在人类文本约 0.4 nats/token 的狭窄预算内。每个修辞方向具有跨语言性（如"not X, but Y"会促进中文"而是"的使用），且套话评分器是自定义的正则检测器，尚无人工评估。
+Goodfire 发布了一篇研究文章，提出证据表明神经网络比此前设想的更具可解释性且更"干净"，挑战了机制可解释性领域普遍存在的悲观情绪。该文章还包含一个交互式"显微镜"工具，允许读者探索一个作者声称已基本理解的小型神经网络。 如果神经网络确实比此前认为的更易解释，这将通过使理解和引导高级 AI 系统的内部推理成为可能，从而显著加速 AI 对齐研究。这对 AI 安全具有直接影响，因为审计和预测模型行为的能力被广泛认为是安全部署日益强大的 AI 的前提条件。 该文章重新审视了著名的"混乱"神经元，检查了可解释性工具失效的案例，并梳理了多义性在网络不同部分的表现方式。批评者指出，渐进特征复杂性和多模态间隙等现象表明网络可能仍倾向于紧凑、过载的表示方式，且文章的主张可能超出了所呈现证据的支撑范围。
 
-reddit · r/MachineLearning · /u/Imaginary_Money2285 · 10月14日 22:08
+hackernews · themgt · 10月15日 16:04 · [社区讨论](https://news.ycombinator.com/item?id=50105647)
 
-**背景**: 机制可解释性是可解释 AI 的一个子领域，通过逆向工程神经网络的内部机制来理解模型如何从输入计算输出。均值差是一种通过在对比数据集（如夸张写作与朴素写作）上平均激活值来识别模型表示空间中某个方向的技术，而 logit lens 则将中间隐藏状态投影到输出词汇空间，以揭示每一层不断演变的预测。"AI 套话"指 LLM 输出中常见的可识别但公式化的写作风格——如破折号、"not X, but Y"句式、三段式列举和流行词——许多用户认为这种风格不受欢迎。SFT（监督微调）和 DPO（直接偏好优化）是将基座语言模型转变为对齐助手的两个关键后训练阶段。
+**背景**: 机制可解释性是 AI 研究的一个子领域，旨在通过分析神经网络的具体结构、算法和电路来逆向工程其内部运作方式，类似于逆向工程传统软件。一个核心挑战是"多义性"，即单个神经元对多个不相关的概念做出响应，使得网络看起来混乱且难以理解。AI 对齐研究致力于确保 AI 系统追求与人类价值观一致的目标，而可解释性被认为是审计模型是否对齐的关键工具。像 Nick Cammarata 这样曾在 OpenAI 参与早期机制可解释性工作的研究者，过去对神经网络表示的整洁性持悲观态度。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Mechanistic_interpretability">Mechanistic interpretability - Wikipedia</a></li>
-<li><a href="https://www.emergentmind.com/topics/logit-lens-framework">Logit - Lens Framework for Transformer Interpretability</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mechanistic_interpretability">Mechanistic interpretability</a></li>
+<li><a href="https://en.wikipedia.org/wiki/AI_alignment">AI alignment</a></li>
 
 </ul>
 </details>
 
-**标签**: `#LLm interpretability`, `#mechanistic interpretability`, `#AI slop`, `#alignment`, `#training dynamics`
+**社区讨论**: 社区反应褒贬不一，一些评论者表达了热情，并将这种基调与 Anthropic 早期大规模稀疏自编码器结果发布时的兴奋相比较。然而，另一些人则提出了批评，认为这些主张相对于证据而言过于激进，且渐进特征复杂性和多模态间隙等已知现象与参数过载并不互斥。一位评论者强调了交互式显微镜工具作为一个值得审视的具体演示。
+
+**标签**: `#mechanistic interpretability`, `#neural networks`, `#AI alignment`, `#AI safety`, `#deep learning`
 
 ---
 
 <a id="item-4"></a>
-## [首例 Stargardt 病患者植入 PRIMA 视觉芯片后可辨识单词](https://science.xyz/news/stargardt-first-rehab/) ⭐️ 8.0/10
+## [Libreboot 26.10 'Ominous Olive' 发布，支持 UEFI 和 Chromebook](https://libreboot.org/news/libreboot2610.html) ⭐️ 8.0/10
 
-Science Corporation 于今年 5 月在澳大利亚悉尼眼科医院为一名 Stargardt 病患者成功植入 PRIMA 视觉恢复芯片，患者在首次康复训练中即可看到字母，第二次训练时已能读出一个完整单词。该结果由公司 CEO Max Hodak 公布。 这是光伏视网膜植入物首次应用于 Stargardt 病——一种全球约 15 万人因此失明且目前无法治愈的遗传性疾病，表明神经假体视觉恢复技术可从老年黄斑变性扩展到更广泛的患者群体。若临床试验成功，该技术有望为这一目前无药可治的疾病提供可行的治疗方案。 PRIMA 芯片是一枚 2 毫米的光伏器件，通过将入射光转换为电信号来替代受损的视网膜感光细胞，已在欧洲获批用于干性老年黄斑变性。本次 Stargardt 病植入属于正在进行的临床试验的一部分，患者从识别字母到读出单词仅经历两次康复训练。
+Libreboot 26.10 'Ominous Olive' 通过 MrChromebox EDK2 payload 集成了完整的 UEFI 支持，并从 MrChromebox coreboot 发行版中导入了全部 233 款目前受支持的 Chromebook。该版本还实施了一项有争议的严格禁止 AI 辅助贡献的政策。 此版本大幅增加了受支持的设备数量，并使未来添加新设备变得更加容易，标志着开源固件普及化的重大进步。UEFI 集成还首次实现了对 Microsoft Windows 的兼容，将 Libreboot 的吸引力扩展到了 Linux 和 BSD 用户之外。 Chromebook 支持目前仅提供源码，意味着用户必须从源码构建，没有预编译的二进制文件，且仅 Baytrail (Kip) 平台经过测试，其他平台仍需测试。UEFI 支持通过 MrChromebox 的 EDK2 payload 实现，该项目还与 Heads 项目合作进行 ChromeOS 设备的移植。
 
-telegram · zaihuapd · 10月14日 04:30
+hackernews · iamnothere · 10月15日 12:52 · [社区讨论](https://news.ycombinator.com/item?id=50102923)
 
-**背景**: Stargardt 病是最常见的单基因遗传性视网膜疾病，通常与 ABCA4 基因的双等位基因变异有关，会在儿童、青少年或成年期引发进行性黄斑变性。该疾病损害视网膜外层，导致不可逆的视力丧失，目前尚无治愈方法。PRIMA 由 Science Corporation 开发，是一种视网膜下植入物，通过将光转换为电信号直接刺激视网膜残存的神经层，从而绕过受损的感光细胞。该设备此前已在欧洲获批用于干性老年黄斑变性继发的地图状萎缩，后者同样会破坏患者的中心视力。
+**背景**: Libreboot 是一个成立于 2013 年 12 月的自由开源引导固件项目，基于 coreboot，负责初始化 CPU 和内存控制器等硬件组件以使操作系统能够运行。它在特定的 Intel/AMD x86 和 ARM 主板上替代专有的 BIOS/UEFI 固件，旨在让非技术用户也能使用 coreboot。UEFI（统一可扩展固件接口）是一种现代固件接口标准，支持图形化引导菜单和安全启动等功能，添加完整的 UEFI 支持使 Libreboot 能够引导包括 Windows 在内的更广泛的操作系统。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Stargardt_disease">Stargardt disease</a></li>
+<li><a href="https://libreboot.org/news/libreboot2610.html">Libreboot – Libreboot 26.10 “Ominous Olive” released! With ...</a></li>
+<li><a href="https://9to5linux.com/libreboot-26-10-open-source-bios-uefi-firmware-released-with-full-uefi-support">Libreboot 26.10 Open-Source BIOS/UEFI Firmware Released with ...</a></li>
+<li><a href="https://libreboot.org/">Libreboot – Free and Open Source BIOS/UEFI boot firmware</a></li>
 
 </ul>
 </details>
 
-**标签**: `#medical-technology`, `#neuroprosthetics`, `#vision-restoration`, `#bci`, `#science-corporation`
+**社区讨论**: 社区讨论（144 条评论）突出了发布的技术意义与 AI 政策所受关注之间的张力。用户 iamnothere 强调 UEFI/EDK2 集成和 Chromebook 支持是重大进步，大幅增加了可用设备数量；而 lf88 则赞扬严格的反 AI 贡献政策令人耳目一新。用户 cwiggs 提到了与 Heads 项目在 ChromeOS 设备移植上的跨项目合作，AdmiralAsshat 则表示有兴趣在旧款 Google Pixel 设备上测试 Libreboot。
+
+**标签**: `#libreboot`, `#open-source-firmware`, `#uefi`, `#chromebook`, `#ai-policy`
+
+---
+
+<a id="item-5"></a>
+## [Anthropic IPO 前公布 Q3 营收达 168 亿美元](https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/) ⭐️ 8.0/10
+
+Anthropic 向投资者透露，Q3 营收达到 168 亿美元，较 Q2 的 115 亿美元增长近 50%，调整后运营利润率为 11%，每投入 1 美元算力可获得 1.70 美元收入。公司还透露，竞争对手 AI 实验室的蒸馏行为此前占营收的 5%至 7%，但在 Q3 已被大幅削减。 这些数据为一家领先 AI 公司的单位经济效益提供了罕见的透明度，而此时行业的商业模式在很大程度上尚未得到验证，且距离 Anthropic 备受期待的 IPO 仅剩数周时间，该 IPO 的估值可能高达 2 万亿美元。蒸馏数据的披露也凸显了 AI 行业日益加剧的竞争紧张局势，竞争对手实验室此前已花费数亿美元利用 Anthropic 的模型来训练自己的模型。 季度营收进展为 Q1 约 48 亿美元、Q2 115 亿美元、Q3 168 亿美元，显示增长在加速，且公司在与投资者沟通中不再使用年化运行率收入指标。Simon Willison 的粗略计算表明，如果蒸馏占 Q2 营收的 5%，那么未具名的竞争对手实验室仅在该季度就花费了超过 5 亿美元来蒸馏 Anthropic 的模型。
+
+rss · Simon Willison · 10月15日 13:04
+
+**背景**: 模型蒸馏是一种技术，即用一个较弱的 AI 模型基于一个更先进模型的输出进行训练，从而以远低于原始训练成本的方式将强模型的知识转移过来。Anthropic 此前曾发表关于检测和防止蒸馏攻击的研究，将该行为定性为竞争对手在其昂贵的模型开发上搭便车。Anthropic 于 2026 年 6 月 1 日秘密提交了 IPO 申请，有报道称其可能筹集高达 1000 亿美元资金，目标估值接近 2 万亿美元，有望成为历史上最大规模的 IPO 之一。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Anthropic_IPO">Anthropic IPO</a></li>
+
+</ul>
+</details>
+
+**标签**: `#anthropic`, `#ai-business`, `#ipo`, `#revenue`, `#unit-economics`
+
+---
+
+<a id="item-6"></a>
+## [ASML 正在开发混合键合设备](https://newsletter.semianalysis.com/p/asml-is-building-a-hybrid-bonding) ⭐️ 8.0/10
+
+SemiAnalysis 报道称，ASML 正在开发一款混合键合设备，这一结论是基于专利申请、新闻报道和路线图分析得出的，而非公司的官方公告。该设备将标志着 ASML 正式进入先进封装设备市场，专门针对芯片到晶圆或晶圆到晶圆的混合键合工艺。 ASML 进入混合键合领域对 Besi 等现有厂商构成了威胁，在美国银行因 ASML 表达了对该技术的兴趣而下调 Besi 评级后，Besi 股价已经受到影响。随着 2D 芯片缩放成本变得极其高昂，通过混合键合实现 3D 集成正成为延续摩尔定律的关键路径，ASML 的介入可能重塑先进封装的竞争格局。 混合键合在原子层面同时键合介电层（氧化物）和金属（铜），消除了传统的微凸点，从而实现更高的互连密度。ASML 在精密光刻和对准系统方面的现有技术积累使其在混合键合所需的极高对准精度方面具备天然优势，这或许解释了其向该设备类别战略扩展的原因。
+
+rss · Semianalysis · 10月15日 19:27
+
+**背景**: 混合键合是一种下一代芯片连接技术，无需微凸点即可实现铜与铜、氧化物与氧化物之间的直接键合，从而以更高的互连密度和性能实现芯片的 3D 堆叠。随着传统 2D 晶体管缩放成本日益高昂，半导体制造商正转向 3D 集成以持续提升芯片性能。该技术被视为未来先进封装的基础，ASML 首席执行官 Christophe Fouquet 已公开承认 3D 集成领域的机遇，表明了公司对该领域的战略兴趣。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://news.skhynix.com/en/tech-note-series-ep2/">[Tech Note] Hybrid Bonding: Evolving into a Foundational ...</a></li>
+<li><a href="https://bits-chips.com/article/asml-investor-day-takeaways-hybrid-bonding-a-new-playground-for-litho/">ASML Investor Day takeaways: hybrid bonding , a new... - Bits&Chips</a></li>
+<li><a href="https://thenextweb.com/news/besi-asml-hybrid-bonding-dutch">ASML ’s chip packaging move threatens Besi shares, Bank of America...</a></li>
+
+</ul>
+</details>
+
+**标签**: `#semiconductors`, `#ASML`, `#hybrid-bonding`, `#advanced-packaging`, `#manufacturing`
+
+---
+
+<a id="item-7"></a>
+## [MIT 与 PNAS 研究表明神经网络可从局部可塑性规则自组装学习机制](https://www.reddit.com/r/MachineLearning/comments/1x6hmyg/how_artificial_neural_networks_build_their_own/) ⭐️ 8.0/10
+
+2026 年 10 月 9 日发表于 PNAS、10 月 13 日由 MIT 报道的研究表明，由共享局部可塑性规则支配的随机互连神经元样单元能够自组装成学习基序，可完成模式识别和图像分类任务，性能与经反向传播训练的网络相当。关键区别在于，系统并非直接设计学习电路，而是指定局部规则，让学习机制自行组织形成。 该研究通过展示生物上合理的局部可塑性规则可以在无需反向传播等全局误差信号的情况下产生功能性学习电路，架起了神经科学与机器学习之间的桥梁，为理解大脑如何学习开辟了路径。它还提出了一种构建学习系统的替代范式，可能补充或启发人工智能中基于梯度训练的替代方案。 作者明确提醒，自组织并不能证明大脑确实使用这一机制，其动机在于生物合理性，而非提出在大规模模型中替代反向传播。待解决的问题包括自组装基序在不同初始连接条件下的稳定性，以及该方法能否推广到已展示的分类任务之外。
+
+reddit · r/MachineLearning · /u/Dorian182 · 10月15日 10:01
+
+**背景**: 反向传播是人工神经网络的主流训练方法，需要将全局误差信号向后传播通过网络，这被广泛认为在生物学上不合理，因为真实神经元缺乏如此精确传递误差信号的机制。相比之下，局部可塑性规则仅根据每个突触处可用的信息（如突触前和突触后活动）来更新突触强度，因此在生物学上更为合理。网络基序是较大网络中反复出现的小型互连模式，作为基本的计算单元。研究问题是此类基序能否从局部规则中自发涌现，并仍能支持复杂的学习。
+
+**标签**: `#machine-learning`, `#neuroscience`, `#neural-networks`, `#plasticity`, `#self-organization`
 
 ---
